@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-11",
+  "regime": "transizione: correzione tecnica da area ATH, 4a seduta di ribasso consecutiva su S&P/Nasdaq/Dow",
+  "risk_on_off": "risk-off tilt (yield e petrolio in salita insieme, oro forte, crypto debole)",
+  "volatility": {
+    "vix_last": 17.84,
+    "vix_date": "2026-09-10",
+    "vix_note": "fonte secondaria riporta 16.34 senza data certa, valori non concordanti"
+  },
+  "breadth": {
+    "status": "non verificabile con precisione oggi",
+    "note": "fonti aggregate di terze parti non incrociabili con dato primario"
+  },
+  "indices_close_2026_09_10": {
+    "sp500": 7591.70,
+    "sp500_chg_pct": -0.58,
+    "nasdaq_composite": 26081.72,
+    "nasdaq_chg_pct": -0.65,
+    "dow": 52064.10,
+    "dow_chg_pct": -0.6
+  },
+  "macro_assets": {
+    "wti_usd": 101.5,
+    "wti_note": "range 101-102 tra 10 e 11 settembre",
+    "gold_usd_oz": 4350,
+    "dxy": 99.10,
+    "us10y_pct": 4.96,
+    "btc_usd": 77194,
+    "eth_usd": 2438.83
+  },
+  "sectors": {
+    "session_leader": "Information Technology (+1.03%)",
+    "session_laggard": "Energy (-1.25%)",
+    "ytd_note": "fonti in conflitto: una indica Energy/Industrials/Materials leader YTD, un'altra indica Information Technology (+39.92% YTD) leader e Consumer Discretionary peggior settore"
+  },
+  "factors_context": [
+    "guerra USA-Iran in corso, shock petrolifero, Stretto di Hormuz",
+    "CPI agosto pubblicato l'11/9",
+    "FOMC 16/9, quiet period dal 5/9 al 17/9",
+    "rischio stagflazione citato da piu fonti"
+  ],
+  "opportunities_count": 0,
+  "opportunities_note": "NO TRADE: indicatori tecnici (SMA/RSI/ATR) non calcolabili, yfinance non raggiungibile (403 policy di rete)",
+  "risk_level": "elevato (evento CPI odierno, FOMC tra 5 giorni, escalation geopolitica in corso)",
+  "data_quality": {
+    "technical_indicators": "non disponibili - rete bloccata verso query2.finance.yahoo.com",
+    "web_research": "disponibile, fonti citate nel brief HTML"
+  }
+}
