@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-14",
+  "regime": "transizione: rimbalzo netto venerdì 11/9 (+0,86%/+0,96%/+0,98% S&P/Nasdaq/Dow) dopo 4 sedute di ribasso, ma future lunedì in calo su shock AI-slowdown weekend (Nasdaq100 -1,2%)",
+  "risk_on_off": "risk-off tilt in apertura: futures tech piu deboli di Dow/S&P su rotazione fuori da AI/semiconduttori, petrolio in salita, azionario asiatico debole; venerdi era stato risk-on parziale post-CPI",
+  "volatility": {
+    "vix_last": 15.84,
+    "vix_date": "2026-09-11",
+    "vix_note": "-11,21% dal 17,84 di due sedute prima; shock weekend AI non ancora riflesso in un dato di chiusura aggiornato"
+  },
+  "breadth": {
+    "status": "non aggiornato e incoerente tra fonti",
+    "note": "67,10% sopra SMA200 al 4/9 (fonte aggregata, dato di 10 giorni fa) vs altra fonte 95% sopra SMA200 / 63,6% sopra SMA50 con metodologia non specificata; valori non incrociabili"
+  },
+  "indices_close_2026_09_11": {
+    "sp500": 7656.98,
+    "sp500_chg_pct": 0.86,
+    "nasdaq_composite": 26333.04,
+    "nasdaq_chg_pct": 0.96,
+    "dow": 52573.29,
+    "dow_chg_pct": 0.98
+  },
+  "macro_assets": {
+    "wti_usd": 102.79,
+    "wti_date": "2026-09-14",
+    "wti_chg_pct": 2.74,
+    "brent_usd": 104.47,
+    "gold_usd_oz": 4361,
+    "gold_note": "range 4350-4361 tra 11 e 12/9",
+    "dxy": 99.00,
+    "dxy_date": "2026-09-11",
+    "us10y_pct": 4.96,
+    "us10y_date": "2026-09-11",
+    "btc_usd": 77200,
+    "btc_date": "2026-09-13",
+    "eth_usd": 2510,
+    "eth_note": "range 2495-2521 il 13/9"
+  },
+  "sectors": {
+    "ytd_leader": "Energy / XLE (+47,7% YTD al 11/9)",
+    "ytd_laggard": "Consumer Discretionary / XLY (-5,0% YTD al 11/9)",
+    "session_note": "dato di performance settoriale della singola seduta 11/9 non trovato da fonte verificata"
+  },
+  "factors_context": [
+    "Weekend: Dario Amodei (Anthropic) invita a rallentare sviluppo AI frontier; Altman (OpenAI) esclude IPO 2026; Musk a supporto",
+    "Future lunedi in calo: Nasdaq100 -1,2%, S&P500 -0,6%, Dow -0,4% (overnight)",
+    "Nvidia, AMD, Micron, SanDisk, Western Digital citati come titoli a rischio",
+    "FOMC 15-16/9, decisione mercoledi 16/9, tasso attuale 3,50-3,75%, probabilita rialzo ~85% (prediction market) ma desk in disaccordo (JPMorgan rialzo vs Goldman rialzo improbabile)",
+    "Conflitto USA-Iran/Hormuz ancora aperto, petrolio di nuovo in accelerazione (+2,74% oggi)",
+    "CPI agosto (uscito 11/9) in linea con attese, non ha generato shock"
+  ],
+  "opportunities_count": 0,
+  "opportunities_note": "NO TRADE: indicatori tecnici (SMA/RSI/ATR) non calcolabili (yfinance non raggiungibile, 403 policy di rete), gap weekend AI-slowdown non ancora verificato a mercati aperti, settimana pre-FOMC con view dei desk in disaccordo",
+  "risk_level": "elevato (shock AI-slowdown nel weekend, FOMC mercoledi con esito conteso, escalation petrolifera in corso)",
+  "data_quality": {
+    "technical_indicators": "non disponibili - rete bloccata verso Yahoo Finance (stesso esito del brief dell'11/9)",
+    "web_research": "disponibile, fonti citate nel brief HTML; diversi dati non aggiornati a oggi (DXY, 10Y, breadth all'11/9 o prima)"
+  }
+}
